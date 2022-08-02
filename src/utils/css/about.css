@@ -1,0 +1,42 @@
+.mtop {
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 500px;
+  text-transform: uppercase;
+  color: #38d16a;
+  margin: 20px 0;
+}
+
+.heading h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  margin-bottom: 20px;
+}
+
+.about .left {
+  padding-right: 30px;
+}
+
+.about .img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
