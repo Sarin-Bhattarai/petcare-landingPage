@@ -13,7 +13,7 @@
 }
 
 .home {
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .home .img {
@@ -29,7 +29,6 @@
   height: 90vh;
   width: 100%;
   object-fit: contain;
-  /* background-attachment: fixed; */
   transform: scale(1.1);
 }
 

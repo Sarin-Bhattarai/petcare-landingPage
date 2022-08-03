@@ -1,3 +1,7 @@
+.blog {
+  min-height: 90vh;
+}
+
 .blog .text {
   margin: 0;
   margin-top: -6px;

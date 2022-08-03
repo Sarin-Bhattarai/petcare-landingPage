@@ -18,7 +18,9 @@ const Header = () => {
       <header className="header">
         <div className="container flex">
           <div className="logo">
-            <img src={logo} alt="logo" />
+            <a href="/">
+              <img src={logo} alt="logo" />
+            </a>
           </div>
           <div className="nav">
             <ul

@@ -28,53 +28,53 @@ a {
 @media screen and (max-width: 768px) {
   .left,
   .right {
-    width: 100%;
+    width: 100% !important;
   }
 
   .home .container {
-    flex-direction: column;
-    flex-direction: column-reverse;
+    flex-direction: column !important;
+    flex-direction: column-reverse !important;
   }
 
   .home {
-    height: 134vh;
+    min-height: 90vh !important;
   }
 
   .home .img {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
   }
 
   .home img {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform: scale(1);
+    width: 100% !important;
+    height: 100% !important;
+    position: relative !important;
+    transform: scale(1) !important;
   }
 
   .grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .about {
+    min-height: 200vh !important;
   }
 
   .about .container {
-    flex-direction: column;
-    margin-top: -15%;
+    flex-direction: column !important;
+    margin-top: -5% !important;
   }
 
   .about .img {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .about img {
-    object-fit: cover;
-    width: 100%;
-    margin-top: 10%;
-  }
-
-  .services .container .heading {
-    margin-top: 125%;
+    object-fit: cover !important;
+    width: 100% !important;
+    margin-top: 10% !important;
   }
 
   .wrapper .container {
@@ -82,101 +82,61 @@ a {
   }
 
   footer .grid1 {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .blog .container {
-    margin-top: -90%;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 
   p {
-    text-align: justify;
+    text-align: justify !important;
   }
 }
 
-@media screen and (max-width: 667px) {
-  .services .container .heading {
-    margin-top: 135%;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .services .container .heading {
-    margin-top: 155%;
-  }
-
-  .blog .container {
-    margin-top: -112%;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .services .container .heading {
-    margin-top: 177%;
-  }
-
-  .blog .container {
-    margin-top: -130%;
+@media screen and (max-width: 600px) {
+  .about {
+    min-height: 220vh !important;
   }
 
   .about img {
-    margin-top: 15%;
+    margin-top: 15% !important;
   }
 }
 
-@media screen and (max-width: 467px) {
-  .services .container .heading {
-    margin-top: 200%;
-  }
-
-  .blog .container {
-    margin-top: -150%;
+@media screen and (max-width: 457px) {
+  .about {
+    min-height: 230vh !important;
   }
 
   .about img {
-    margin-top: 18%;
-  }
-
-  .about .container {
-    margin-top: -25%;
+    margin-top: 17% !important;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .services .container .heading {
-    margin-top: 220%;
+@media screen and (max-width: 418px) {
+  .about {
+    min-height: 240vh !important;
   }
 
-  .blog .container {
-    margin-top: -170%;
-  }
-}
-
-@media screen and (max-width: 398px) {
-  .services .container .heading {
-    margin-top: 248%;
-  }
-
-  .blog .container {
-    margin-top: -190%;
-  }
-
-  .about .container {
-    margin-top: -40%;
+  .about img {
+    margin-top: 17% !important;
   }
 }
 
-@media screen and (max-width: 376px) {
-  .services .container .heading {
-    margin-top: 250%;
+@media screen and (max-width: 382px) {
+  .about {
+    min-height: 250vh !important;
   }
 
-  .blog .container {
-    margin-top: -195%;
+  .about img {
+    margin-top: 17% !important;
+  }
+}
+
+@media screen and (max-width: 363px) {
+  .about {
+    min-height: 260vh !important;
   }
 
-  .about .container {
-    margin-top: -18%;
+  .about img {
+    margin-top: 17% !important;
   }
 }
 
