@@ -30,7 +30,9 @@ const About = () => {
                   <p>{val.desc1}</p>
                   <p>{val.desc2}</p>
                   <p>{val.desc3}</p>
-                  <button className="primary-btn">Contact Us</button>
+                  <a href="/contact">
+                    <button className="primary-btn">Contact Us</button>
+                  </a>
                 </div>
                 <div className="right">
                   <div className="img">

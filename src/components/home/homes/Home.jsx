@@ -29,7 +29,9 @@ const Home = () => {
               odit velit in dicta vero quae amet, odio voluptas. Odit magnam eum
               quam? Rem adipisci mollitia aut numquam temporibus quasi vitae.
             </p>
-            <button className="primary-btn">Contact Us</button>
+            <a href="/contact">
+              <button className="primary-btn">Contact Us</button>
+            </a>
           </div>
         </div>
       </section>

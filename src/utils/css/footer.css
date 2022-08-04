@@ -16,7 +16,6 @@ footer p {
 }
 
 footer .socialIcon .i {
-  background: transparent;
   border: 2px solid #fff;
   padding: 5px 0px;
 }
@@ -31,12 +30,8 @@ footer li {
   margin-bottom: 15px;
 }
 
-footer li:before {
-  content: ".";
-  font-size: 50px;
-  vertical-align: top;
-  line-height: 10px;
-  margin-right: 20px;
+footer ul a:hover {
+  text-decoration: underline;
   color: #38d16a;
 }
 

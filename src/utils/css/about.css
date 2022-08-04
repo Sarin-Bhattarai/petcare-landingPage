@@ -21,6 +21,7 @@ h3 {
 
 .about p {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .about .left {

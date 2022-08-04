@@ -7,6 +7,7 @@ import About from "./components/home/about/About";
 import Services from "./components/home/services/Service";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
+import Privacy from "./components/privacy/Privacy";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/services" exact component={Services} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/contact" exact component={Contact} />
+          <Route path="/privacy" exact component={Privacy} />
         </Switch>
         <Footer />
       </Router>

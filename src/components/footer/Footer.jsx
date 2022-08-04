@@ -10,8 +10,47 @@ import {
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
+import Faq from "react-faq-component";
 
 const Footer = () => {
+  const data = {
+    rows: [
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
+              ultricies metus at, consequat velit.`,
+      },
+
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
+              ultricies metus at, consequat velit.`,
+      },
+
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
+              ultricies metus at, consequat velit.`,
+      },
+    ],
+  };
+
+  const styles = {
+    titleTextColor: "white",
+    rowTitleColor: "white",
+    bgColor: "#08071c",
+    rowContentColor: "white",
+    arrowColor: "white",
+    transitionDuration: "0.8s",
+  };
+
+  const config = {
+    animate: true,
+    arrowIcon: "V",
+    openOnload: 0,
+    expandIcon: "+",
+    collapseIcon: "-",
+  };
   return (
     <>
       <footer>
@@ -33,23 +72,26 @@ const Footer = () => {
           <div className="box">
             <h2>Quick Links</h2>
             <ul>
-              <li>About</li>
-              <li>Blog</li>
+              <a href="/about">
+                <li>About</li>
+              </a>
+              <a href="/blog">
+                <li>Blog</li>
+              </a>
               <li>Shop</li>
-              <li>Contact</li>
-              <li>Privacy</li>
+              <a href="/contact">
+                <li>Contact</li>
+              </a>
+              <a href="/privacy">
+                <li>Privacy</li>
+              </a>
             </ul>
           </div>
 
           <div className="box">
-            <h2>Recent Post</h2>
-            <div className="text">
-              <p>Wagging Tales to Care Your Pet</p>
-              <span>28 FEB 2022</span>
-            </div>
-            <div className="text">
-              <p>Wagging Tales to Care Your Pet</p>
-              <span>28 FEB 2022</span>
+            <h2>FAQs</h2>
+            <div>
+              <Faq data={data} styles={styles} config={config} />
             </div>
           </div>
           <div className="box">
