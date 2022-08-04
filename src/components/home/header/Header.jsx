@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import logo from "../../../utils/assets/logo1.png";
 import { Link } from "react-router-dom";
 import "../../../utils/css/header.css";
-import { MdSearch, MdOutlineMenu, MdOutlineClose } from "react-icons/md";
+import { MdOutlineMenu, MdOutlineClose } from "react-icons/md";
+// MdSearch;
 import { IoBagSharp } from "react-icons/io5";
 
 const Header = () => {
@@ -43,7 +44,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li className="icon">
-                <MdSearch className="HeaderIcon" />
+                {/* <MdSearch className="HeaderIcon" /> */}
                 <IoBagSharp className="HeaderIcon" />
               </li>
             </ul>

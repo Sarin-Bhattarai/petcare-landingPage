@@ -46,10 +46,6 @@ header.active {
 }
 
 @media screen and (max-width: 768px) {
-  header .icon {
-    display: none;
-  }
-
   .nav-links {
     display: none;
   }
@@ -62,7 +58,7 @@ header.active {
     top: 75px;
     transition: 0.5s;
     width: 80%;
-    height: 30vh;
+    height: 41vh;
     z-index: 5;
   }
 
