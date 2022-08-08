@@ -4,6 +4,10 @@
   padding: 20px 22px;
 }
 
+.topMargin-2 {
+  margin-top: 100px;
+}
+
 .info {
   grid-area: info;
   background-color: #38d16a;

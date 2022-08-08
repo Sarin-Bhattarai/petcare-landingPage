@@ -8,6 +8,7 @@ import Services from "./components/home/services/Service";
 import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Privacy from "./components/privacy/Privacy";
+import Faqs from "./components/FAQs/Faqs";
 import Footer from "./components/footer/Footer";
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/about" exact component={About} />
           <Route path="/services" exact component={Services} />
           <Route path="/blog" exact component={Blog} />
+          <Route path="/faq" exact component={Faqs} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/privacy" exact component={Privacy} />
         </Switch>

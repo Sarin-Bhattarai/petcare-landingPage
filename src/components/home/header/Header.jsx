@@ -3,7 +3,6 @@ import logo from "../../../utils/assets/logo1.png";
 import { Link } from "react-router-dom";
 import "../../../utils/css/header.css";
 import { MdOutlineMenu, MdOutlineClose } from "react-icons/md";
-// MdSearch;
 import { IoBagSharp } from "react-icons/io5";
 
 const Header = () => {
@@ -41,10 +40,12 @@ const Header = () => {
                 <Link to="/blog">Blog</Link>
               </li>
               <li>
+                <Link to="/faq">FAQs</Link>
+              </li>
+              <li>
                 <Link to="/contact">Contact</Link>
               </li>
               <li className="icon">
-                {/* <MdSearch className="HeaderIcon" /> */}
                 <IoBagSharp className="HeaderIcon" />
               </li>
             </ul>

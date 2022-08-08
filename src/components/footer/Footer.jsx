@@ -10,47 +10,8 @@ import {
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
-import Faq from "react-faq-component";
 
 const Footer = () => {
-  const data = {
-    rows: [
-      {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit.`,
-      },
-
-      {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit.`,
-      },
-
-      {
-        title: "Lorem Ipsum dolor sit",
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit.`,
-      },
-    ],
-  };
-
-  const styles = {
-    titleTextColor: "white",
-    rowTitleColor: "white",
-    bgColor: "#08071c",
-    rowContentColor: "white",
-    arrowColor: "white",
-    transitionDuration: "0.8s",
-  };
-
-  const config = {
-    animate: true,
-    arrowIcon: "V",
-    openOnload: 0,
-    expandIcon: "+",
-    collapseIcon: "-",
-  };
   return (
     <>
       <footer>
@@ -82,6 +43,9 @@ const Footer = () => {
               <a href="/contact">
                 <li>Contact</li>
               </a>
+              <a href="/faq">
+                <li>FAQs</li>
+              </a>
               <a href="/privacy">
                 <li>Privacy</li>
               </a>
@@ -89,10 +53,11 @@ const Footer = () => {
           </div>
 
           <div className="box">
-            <h2>FAQs</h2>
-            <div>
-              <Faq data={data} styles={styles} config={config} />
-            </div>
+            <h2>Recent Posts</h2>
+            <h3>Pet Toys</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <h3>Pet Food</h3>
+            <p>Lorem ipsum dolor sit amet</p>
           </div>
           <div className="box">
             <h2>Get in Touch</h2>

@@ -13,7 +13,7 @@ import {
 const Contact = () => {
   return (
     <>
-      <section className="contact topMargin">
+      <section className="contact topMargin-2">
         <div className="container">
           <div className="heading">
             <h3>CONTACT US</h3>
