@@ -10,6 +10,7 @@ import {
   FaEnvelope,
   FaPhoneAlt,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,22 +34,36 @@ const Footer = () => {
           <div className="box">
             <h2>Quick Links</h2>
             <ul>
-              <a href="/about">
-                <li>About</li>
-              </a>
-              <a href="/blog">
-                <li>Blog</li>
-              </a>
-              <li>Shop</li>
-              <a href="/contact">
-                <li>Contact</li>
-              </a>
-              <a href="/faq">
-                <li>FAQs</li>
-              </a>
-              <a href="/privacy">
-                <li>Privacy</li>
-              </a>
+              <li>
+                <Link className="footer-link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/shop">
+                  Shop
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/contact">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/faq">
+                  FAQs
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/terms">
+                  Terms & condition
+                </Link>
+              </li>
+              <li>
+                <Link className="footer-link" to="/privacy">
+                  Privacy
+                </Link>
+              </li>
             </ul>
           </div>
 

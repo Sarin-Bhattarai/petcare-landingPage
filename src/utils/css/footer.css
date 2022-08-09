@@ -25,13 +25,19 @@ footer h2 {
   font-size: 20px;
 }
 
-footer li {
-  color: #fff;
+.box ul li {
   margin-bottom: 15px;
 }
 
-footer ul a:hover {
+.box ul li:hover {
   text-decoration: underline;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
   color: #38d16a;
 }
 

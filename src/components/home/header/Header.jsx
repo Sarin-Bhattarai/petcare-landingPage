@@ -3,7 +3,6 @@ import logo from "../../../utils/assets/logo1.png";
 import { Link } from "react-router-dom";
 import "../../../utils/css/header.css";
 import { MdOutlineMenu, MdOutlineClose } from "react-icons/md";
-import { IoBagSharp } from "react-icons/io5";
 
 const Header = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -31,6 +30,9 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
+                <Link to="/shop">Shop</Link>
+              </li>
+              <li>
                 <Link to="/about">About</Link>
               </li>
               <li>
@@ -44,9 +46,6 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
-              </li>
-              <li className="icon">
-                <IoBagSharp className="HeaderIcon" />
               </li>
             </ul>
           </div>
