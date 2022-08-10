@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../../utils/assets/logo1.png";
+import logo from "../../../utils/assets/logo2.png";
 import { Link } from "react-router-dom";
 import "../../../utils/css/header.css";
 import { MdOutlineMenu, MdOutlineClose } from "react-icons/md";

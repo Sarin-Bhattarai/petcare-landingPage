@@ -1,6 +1,6 @@
 .form {
   grid-area: form;
-  background-color: #38d16a;
+  background-color: #08071c;
   padding: 20px 22px;
 }
 
@@ -10,7 +10,7 @@
 
 .info {
   grid-area: info;
-  background-color: #38d16a;
+  background-color: #08071c;
   padding: 20px 22px;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .inputBox span {
-  color: #08071c;
+  color: #fff;
   margin-top: 10px;
   margin-bottom: 5px;
   font-weight: 800;
@@ -87,7 +87,7 @@
 }
 
 .inputBox input[type="submit"]:hover {
-  background-color: #08071c;
+  background-color: #38d16a;
   color: #fff;
 }
 
@@ -117,13 +117,13 @@
 }
 
 .infoBox p {
-  color: #08071c;
+  color: #fff;
   font-weight: 800;
   font-size: 1.1em;
 }
 
 .info .infoBox div a {
-  color: #08071c;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .sci li a:hover {
-  color: #08071c;
+  color: #38d16a;
 }
 /* infoBox */
 

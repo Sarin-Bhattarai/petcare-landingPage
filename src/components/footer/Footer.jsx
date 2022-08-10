@@ -1,6 +1,6 @@
 import React from "react";
 import "../../utils/css/footer.css";
-import logo from "../../utils/assets/logo.png";
+import logo from "../../utils/assets/logo3.png";
 import {
   FaFacebookF,
   FaInstagram,
@@ -90,7 +90,7 @@ const Footer = () => {
             </div>
             <div className="icon">
               <FaEnvelope className="ia" />
-              <label>Email: wagging@gmail.com</label>
+              <label>Email: homi@gmail.com</label>
             </div>
           </div>
         </div>

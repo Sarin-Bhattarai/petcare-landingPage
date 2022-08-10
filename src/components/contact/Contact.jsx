@@ -75,7 +75,7 @@ const Contact = () => {
                   <span>
                     <FaEnvelope />
                   </span>
-                  <a href="mailto:wagging@gmail.com">wagging@gmail.com</a>
+                  <a href="mailto:wagging@gmail.com">homibuddy@gmail.com</a>
                 </div>
                 <div>
                   <span>
