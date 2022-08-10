@@ -18,7 +18,7 @@ const Home = () => {
           </div>
           <div className="right topMargin">
             <h1>
-              WAGGING TAILS <br />
+              HOMI BUDDY <br />
               SINCE 2008
             </h1>
             <div className="socialIcon">
@@ -94,7 +94,7 @@ const Home = () => {
       <section className="home-third topMargin">
         <div className="container">
           <div className="heading">
-            <h2>Enumeration</h2>
+            <h2>Statistics</h2>
           </div>
 
           <div className="grid-3">
@@ -119,26 +119,38 @@ const Home = () => {
             <div className="box">
               <div className="small-grid">
                 <div className="sg-row">
-                  <h2></h2>
-                  <h3></h3>
-                  <p></p>
+                  <span>8.827</span>
+                  <h3>Happy Dog Owners</h3>
+                  <p style={{ color: "black" }}>
+                    Sample text. Click to select the textbox. Click again or
+                    double click to start editing the text.
+                  </p>
                 </div>
                 <div className="sg-row">
-                  <h2></h2>
-                  <h3></h3>
-                  <p></p>
+                  <span>$640</span>
+                  <h3>Average Savings</h3>
+                  <p style={{ color: "black" }}>
+                    Sample text. Click to select the textbox. Click again or
+                    double click to start editing the text.
+                  </p>
                 </div>
               </div>
               <div className="small-grid">
                 <div className="sg-row">
-                  <h2></h2>
-                  <h3></h3>
-                  <p></p>
+                  <span>219.844</span>
+                  <h3>Training Videos</h3>
+                  <p style={{ color: "black" }}>
+                    Sample text. Click to select the textbox. Click again or
+                    double click to start editing the text.
+                  </p>
                 </div>
                 <div className="sg-row">
-                  <h2></h2>
-                  <h3></h3>
-                  <p></p>
+                  <span>only 10</span>
+                  <h3>Training Time</h3>
+                  <p style={{ color: "black" }}>
+                    Sample text. Click to select the textbox. Click again or
+                    double click to start editing the text.
+                  </p>
                 </div>
               </div>
             </div>

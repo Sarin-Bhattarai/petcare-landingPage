@@ -57,6 +57,14 @@ a {
     grid-template-columns: repeat(1, 1fr) !important;
   }
 
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .small-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
   .about {
     min-height: 200vh !important;
   }

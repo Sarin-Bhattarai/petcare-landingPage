@@ -189,9 +189,23 @@ p {
   margin-top: 15px;
 }
 
+.small-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
 .grid-3 .box p {
   text-align: justify;
   color: #fff;
+}
+
+.sg-row {
+  margin-bottom: 30px;
+}
+
+.sg-row span {
+  font-size: 35px;
 }
 
 #box90 {
