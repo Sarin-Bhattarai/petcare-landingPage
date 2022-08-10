@@ -1,9 +1,11 @@
 import React from "react";
+import Faq from "react-faq-component";
 import aboutPic from "../../../utils/assets/aboutpic.jpg";
+import aboutPic2 from "../../../utils/assets/cat-care.png";
 import "../../../utils/css/about.css";
 
 const About = () => {
-  const data = [
+  const data1 = [
     {
       title: "Who We Are And What We Do",
       desc1:
@@ -15,11 +17,55 @@ const About = () => {
       cover: aboutPic,
     },
   ];
+
+  const data = {
+    rows: [
+      {
+        title: "24 hour Services",
+        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+      },
+
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+      },
+
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+      },
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+      },
+      {
+        title: "Lorem Ipsum dolor sit",
+        content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque similique, placeat vel eligendi quidem aliquid odit enim suscipit aspernatur quo voluptates iusto unde voluptas perferendis cupiditate, quibusdam aperiam, voluptatem mollitia tenetur doloremque? Eaque dolores corporis molestias earum blanditiis saepe ducimus iste asperiores? Numquam ipsum, libero nostrum repellat sint vero rem!`,
+      },
+    ],
+  };
+
+  const styles = {
+    titleTextColor: "black",
+    rowTitleColor: "black",
+    bgColor: "#fff",
+    rowContentColor: "black",
+    arrowColor: "black",
+    transitionDuration: "0.8s",
+  };
+
+  const config = {
+    animate: true,
+    arrowIcon: "V",
+    openOnload: 0,
+    expandIcon: "+",
+    collapseIcon: "-",
+  };
   return (
     <>
       <section className="about topMargin">
         <div className="container flex">
-          {data.map((val) => {
+          {data1.map((val) => {
             return (
               <>
                 <div className="left mtop">
@@ -42,6 +88,39 @@ const About = () => {
               </>
             );
           })}
+        </div>
+      </section>
+
+      <section className="about-second topMargin">
+        <div className="container">
+          <div className="heading">
+            <h1>Why Choose Us</h1>
+          </div>
+
+          <div className="about-grid">
+            <div className="about-row">
+              <div className="about-image">
+                <img
+                  className="cat-image"
+                  src={aboutPic2}
+                  alt="about-pic-second"
+                />
+              </div>
+              <h2>Pet Daycare</h2>
+              <p style={{ textAlign: "justify", marginBottom: "15px" }}>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium ipsam fugit facilis excepturi debitis nostrum aut
+                eius distinctio doloribus expedita?
+              </p>
+              <a href="/services">
+                <button className="primary-btn">More Services</button>
+              </a>
+            </div>
+
+            <div className="about-row">
+              <Faq data={data} styles={styles} config={config} />
+            </div>
+          </div>
         </div>
       </section>
     </>
