@@ -5,6 +5,7 @@ import food1 from "../../../utils/assets/food-1.png";
 import food2 from "../../../utils/assets/food-2.png";
 import food3 from "../../../utils/assets/food-3.png";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,9 +33,11 @@ const Home = () => {
               odit velit in dicta vero quae amet, odio voluptas. Odit magnam eum
               quam? Rem adipisci mollitia aut numquam temporibus quasi vitae.
             </p>
-            <a href="/contact">
-              <button className="primary-btn">Contact Us</button>
-            </a>
+            <button className="primary-btn ">
+              <Link style={{ color: "#fff" }} to="/contact">
+                Contact Us
+              </Link>
+            </button>
           </div>
         </div>
       </section>
@@ -54,9 +57,11 @@ const Home = () => {
                 <p>Price: $10</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
                 <h2>Pedigree</h2>
-                <a href="/shop">
-                  <button className="primary-btn ">Shop now</button>
-                </a>
+                <button className="primary-btn ">
+                  <Link style={{ color: "#fff" }} to="/shop">
+                    Shop now
+                  </Link>
+                </button>
               </div>
             </div>
             {/* Box ends here */}
@@ -68,9 +73,11 @@ const Home = () => {
                 <p>Price: $12</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
                 <h2>Mockup</h2>
-                <a href="/shop">
-                  <button className="primary-btn ">Shop now</button>
-                </a>
+                <button className="primary-btn ">
+                  <Link style={{ color: "#fff" }} to="/shop">
+                    Shop now
+                  </Link>
+                </button>
               </div>
             </div>
             {/* Box ends here */}
@@ -82,9 +89,11 @@ const Home = () => {
                 <p>Price: $15</p>
                 <p>Lorem ipsum dolor sit amet smet.</p>
                 <h2>Smartbones</h2>
-                <a href="/shop">
-                  <button className="primary-btn ">Shop now</button>
-                </a>
+                <button className="primary-btn ">
+                  <Link style={{ color: "#fff" }} to="/shop">
+                    Shop now
+                  </Link>
+                </button>
               </div>
             </div>
           </div>

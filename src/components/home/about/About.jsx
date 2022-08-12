@@ -3,6 +3,7 @@ import Faq from "react-faq-component";
 import aboutPic from "../../../utils/assets/aboutpic.jpg";
 import aboutPic2 from "../../../utils/assets/cat-care.png";
 import "../../../utils/css/about.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   const data1 = [
@@ -76,9 +77,11 @@ const About = () => {
                   <p>{val.desc1}</p>
                   <p>{val.desc2}</p>
                   <p>{val.desc3}</p>
-                  <a href="/contact">
-                    <button className="primary-btn">Contact Us</button>
-                  </a>
+                  <button className="primary-btn ">
+                    <Link style={{ color: "#fff" }} to="/contact">
+                      Contact Us
+                    </Link>
+                  </button>
                 </div>
                 <div className="right">
                   <div className="img">
@@ -112,9 +115,11 @@ const About = () => {
                 Laudantium ipsam fugit facilis excepturi debitis nostrum aut
                 eius distinctio doloribus expedita?
               </p>
-              <a href="/services">
-                <button className="primary-btn">More Services</button>
-              </a>
+              <button className="primary-btn ">
+                <Link style={{ color: "#fff" }} to="/services">
+                  More Services
+                </Link>
+              </button>
             </div>
 
             <div className="about-row">
